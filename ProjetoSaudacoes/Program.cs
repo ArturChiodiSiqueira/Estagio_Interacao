@@ -15,7 +15,7 @@ namespace ProjetoSaudacoes
             //- BOA TARDE COMEÇA 12:00 ATE 17:59            // O DIA TEM QUE TER 24H
             //- BOA NOITE COMEÇA 18:00 ATE 23:59
             string nome;
-            int hora, minuto;
+            int hora, minuto = 0;
 
             Console.WriteLine("Digite seu nome: ");
             nome = Console.ReadLine();
@@ -24,31 +24,36 @@ namespace ProjetoSaudacoes
             Console.WriteLine("Informe o minuto: ");
             minuto = int.Parse(Console.ReadLine());
 
-            if (hora >= 0 || hora < 24)
+            for (hora = 0; hora <= 0 || hora > 23;)
             {
-                if (hora >= 0 && hora < 12)
-                {
-                    Console.WriteLine("Bom dia, " + nome);
-                }
-                else if (hora >= 12 && hora < 18)
-                {
-                    Console.WriteLine("Boa tarde, " + nome);
-                }
-                else if (hora >= 18 && hora < 24) 
-                {
-                    Console.WriteLine("Boa noite, " + nome);
-                }
-            }
-            else
-            {
+                Console.WriteLine("Informe a hora: ");
+                hora = int.Parse(Console.ReadLine());
+
                 do
                 {
-                    Console.WriteLine("HORA OU MINUTO INVÁLIDO");
-                    Console.WriteLine("Informe a hora: ");
-                    hora = int.Parse(Console.ReadLine());
                     Console.WriteLine("Informe o minuto: ");
                     minuto = int.Parse(Console.ReadLine());
-                } while (hora < 0 || hora > 23 || minuto < 0 || minuto > 59);
+                } while (minuto > 59 || minuto < 0);
+
+                if (hora < 24 && hora < 24)
+                {
+                    if (hora >= 0 && hora >=0 && minuto > 60 && minuto >= 0)
+                    {
+                        Console.WriteLine("Bom dia, " + nome);
+                    }
+                    else if (hora >= 12 && hora < 18)
+                    {
+                        Console.WriteLine("Boa tarde, " + nome);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Boa noite, " + nome);
+                    }
+                }
+                else
+                {
+                    
+                }
             }
         }
     }
