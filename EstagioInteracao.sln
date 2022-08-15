@@ -5,9 +5,11 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ambientacao", "Ambientacao\Ambientacao.csproj", "{E8A903DE-91ED-4E47-9BF3-BD547147C7A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimuladorCalculadora", "SimuladorCalculadora\SimuladorCalculadora.csproj", "{8E8EA131-56F0-4FAA-8EA5-A604B960CD09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimuladorCalculadora", "SimuladorCalculadora\SimuladorCalculadora.csproj", "{8E8EA131-56F0-4FAA-8EA5-A604B960CD09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabuada", "Tabuada\Tabuada.csproj", "{37877CDC-7AB4-4942-B980-C68253F382CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tabuada", "Tabuada\Tabuada.csproj", "{37877CDC-7AB4-4942-B980-C68253F382CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoSaudacoes", "ProjetoSaudacoes\ProjetoSaudacoes.csproj", "{9FD91528-8319-4685-8542-DA9D2F7EB50D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{37877CDC-7AB4-4942-B980-C68253F382CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37877CDC-7AB4-4942-B980-C68253F382CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37877CDC-7AB4-4942-B980-C68253F382CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD91528-8319-4685-8542-DA9D2F7EB50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD91528-8319-4685-8542-DA9D2F7EB50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD91528-8319-4685-8542-DA9D2F7EB50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD91528-8319-4685-8542-DA9D2F7EB50D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

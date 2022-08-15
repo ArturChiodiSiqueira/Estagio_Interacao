@@ -6,7 +6,10 @@ namespace ProjetoSaudacoes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string nome;
+            int hora, minuto;
+
+
         }
     }
 }
