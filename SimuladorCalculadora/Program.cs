@@ -21,7 +21,7 @@ namespace SimuladorCalculadora
 
             do
             {
-                Console.WriteLine("\tInforme uma opção valida!");
+                Console.WriteLine("Informe uma opção valida!\n");
                 Console.Write("Informe a operação desejada:\n\t{1} Soma\n\t{2} Subtração\n\t{3} Multiplicação\n\t{4} Divisão\nOpção: ");
                 opcao = int.Parse(Console.ReadLine());
             } while (opcao < 1 || opcao > 4);
@@ -47,30 +47,10 @@ namespace SimuladorCalculadora
                         resultado = numero1 / numero2;
                     break;
             }
+            Console.WriteLine("O resultado da operação é: " + resultado);
 
-            /*if (opcao == 1)
-            {
-                resultado = numero1 + numero2;
-            }
-            if (opcao == 2)
-            {
-                resultado = numero1 - numero2;
-            }
-            if (opcao == 3)
-            {
-                resultado = numero1 * numero2;
-            }
-            if (opcao == 4)
-            {
-                if (numero2 == 0)
-                {
-                    Console.WriteLine("Não é possivel dividir por zero!");
-                }
-                else
-                    resultado = numero1 / numero2;
-            }
-
-            Console.WriteLine("O resultado da operação é: " + resultado);*/
+            Console.WriteLine("\n\nPressione qualquer tecla para finalizar.");
+            Console.ReadKey();
         }
     }
 }
