@@ -6,6 +6,8 @@ namespace Ambientacao
     {
         static void Main(string[] args)
         {
+            // APENAS TESTE DE AMBIENTAÇÃO COM A IDE...
+            // NÃO POSSUI GRANDES FUNCIONALIDADES.
             String nome;
             int idade;
 
