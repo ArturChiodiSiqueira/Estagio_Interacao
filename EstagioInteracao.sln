@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ambientacao", "Ambientacao\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimuladorCalculadora", "SimuladorCalculadora\SimuladorCalculadora.csproj", "{8E8EA131-56F0-4FAA-8EA5-A604B960CD09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabuada", "Tabuada\Tabuada.csproj", "{37877CDC-7AB4-4942-B980-C68253F382CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8E8EA131-56F0-4FAA-8EA5-A604B960CD09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E8EA131-56F0-4FAA-8EA5-A604B960CD09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E8EA131-56F0-4FAA-8EA5-A604B960CD09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37877CDC-7AB4-4942-B980-C68253F382CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37877CDC-7AB4-4942-B980-C68253F382CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37877CDC-7AB4-4942-B980-C68253F382CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37877CDC-7AB4-4942-B980-C68253F382CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
