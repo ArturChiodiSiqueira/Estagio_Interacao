@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimuladorCalculadora", "Sim
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tabuada", "Tabuada\Tabuada.csproj", "{37877CDC-7AB4-4942-B980-C68253F382CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoSaudacoes", "ProjetoSaudacoes\ProjetoSaudacoes.csproj", "{9FD91528-8319-4685-8542-DA9D2F7EB50D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoSaudacoes", "ProjetoSaudacoes\ProjetoSaudacoes.csproj", "{9FD91528-8319-4685-8542-DA9D2F7EB50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoDeGraus", "ConversaoDeGraus\ConversaoDeGraus.csproj", "{5EC97D35-F46D-43CF-80F6-85CE40BBB003}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9FD91528-8319-4685-8542-DA9D2F7EB50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FD91528-8319-4685-8542-DA9D2F7EB50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FD91528-8319-4685-8542-DA9D2F7EB50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC97D35-F46D-43CF-80F6-85CE40BBB003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC97D35-F46D-43CF-80F6-85CE40BBB003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC97D35-F46D-43CF-80F6-85CE40BBB003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC97D35-F46D-43CF-80F6-85CE40BBB003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
