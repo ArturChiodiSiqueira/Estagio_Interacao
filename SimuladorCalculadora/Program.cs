@@ -26,7 +26,29 @@ namespace SimuladorCalculadora
                 opcao = int.Parse(Console.ReadLine());
             } while (opcao < 1 || opcao > 4);
 
-            if (opcao == 1)
+            switch (opcao)
+            {
+                case 1: resultado = numero1 + numero2;
+                    break;
+
+                case 2: resultado = numero1 - numero2;
+                    break;
+
+                case 3:
+                    resultado = numero1 * numero2;
+                    break;
+
+                case 4:
+                    if (numero2 == 0)
+                    {
+                        Console.WriteLine("Não é possivel dividir por zero!");
+                    }
+                    else
+                        resultado = numero1 / numero2;
+                    break;
+            }
+
+            /*if (opcao == 1)
             {
                 resultado = numero1 + numero2;
             }
@@ -48,7 +70,7 @@ namespace SimuladorCalculadora
                     resultado = numero1 / numero2;
             }
 
-            Console.WriteLine("O resultado da operação é: " + resultado);
+            Console.WriteLine("O resultado da operação é: " + resultado);*/
         }
     }
 }
