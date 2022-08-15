@@ -12,24 +12,14 @@ namespace Tabuada
             Console.Write("Informe uma tabuada para ser calculada: ");
             tabuada = int.Parse(Console.ReadLine());
 
-            do
+            Console.Write("\nInforme o número de inicio da tabuada: ");
+            inicio = int.Parse(Console.ReadLine());
+
+            Console.Write("Informe o número de parada da tabuada: ");
+            parada = int.Parse(Console.ReadLine());
+
+            if (parada >= inicio)
             {
-                Console.WriteLine("\nInforme um número de parada maior que o de inicio!!!");
-                Console.Write("Informe o número de inicio da tabuada: ");
-                inicio = int.Parse(Console.ReadLine());
-
-                Console.Write("Informe o número de parada da tabuada: ");
-                parada = int.Parse(Console.ReadLine());
-            } while (parada < inicio);
-
-            if (parada > inicio)
-            {
-                Console.Write("\nInforme o número de inicio da tabuada: ");
-                inicio = int.Parse(Console.ReadLine());
-
-                Console.Write("Informe o número de parada da tabuada: ");
-                parada = int.Parse(Console.ReadLine());
-
                 for (int i = inicio; i <= parada; i++)
                 {
                     resultado = i * tabuada;
@@ -40,6 +30,18 @@ namespace Tabuada
 
                 Console.WriteLine("\n\nPressione qualquer tecla para finalizar.");
                 Console.ReadKey();
+            }
+            else
+            {
+                do
+                {
+                    Console.WriteLine("Informe um valor de parada maior que o de inicio.");
+                    Console.Write("\nInforme o número de inicio da tabuada: ");
+                    inicio = int.Parse(Console.ReadLine());
+
+                    Console.Write("Informe o número de parada da tabuada: ");
+                    parada = int.Parse(Console.ReadLine());
+                } while (parada < inicio);
             }
         }
     }
