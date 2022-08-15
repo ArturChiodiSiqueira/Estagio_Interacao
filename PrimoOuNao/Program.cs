@@ -11,13 +11,13 @@ namespace PrimoOuNao
             Console.Write("Informe um número: ");
             numero = int.Parse(Console.ReadLine());
 
-            if (numero % 1 != numero && numero % numero != 0)
+            if (numero % 2 != 0 || numero == 2)
             {
-                Console.WriteLine("O número não é primo!");
+                Console.WriteLine("O número é primo!");
             }
             else
             {
-                Console.WriteLine("O numero é primo");
+                Console.WriteLine("O numero não é primo");
             }
             Console.WriteLine("\n\nPressione qualquer tecla para finalizar.");
             Console.ReadKey();
