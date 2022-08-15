@@ -36,6 +36,9 @@ namespace Tabuada
                     Console.WriteLine(i + " x " + tabuada + " = " + resultado);
                 }
                 Console.WriteLine("\nA soma dos resultados é: " + soma);
+
+                Console.WriteLine("\n\nPressione qualquer tecla para finalizar.");
+                Console.ReadKey();
             }
         }
     }
