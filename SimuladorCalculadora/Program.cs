@@ -7,7 +7,7 @@ namespace SimuladorCalculadora
         static void Main(string[] args)
         {
             // CALCULADORA DE OPERAÇÕES BÁSICAS.
-            float numero1, numero2, resultado=0;
+            float numero1, numero2, resultado = 0;
             int opcao;
 
             Console.Write("Informe o 1° valor: ");
@@ -19,34 +19,35 @@ namespace SimuladorCalculadora
             Console.Write("Informe a operação desejada:\n\t{1} Soma\n\t{2} Subtração\n\t{3} Multiplicação\n\t{4} Divisão\nOpção: ");
             opcao = int.Parse(Console.ReadLine());
 
-            if (opcao < 1 || opcao > 4)
+            do
             {
-                Console.WriteLine("Informe uma opção valida!");
+                Console.WriteLine("\tInforme uma opção valida!");
+                Console.Write("Informe a operação desejada:\n\t{1} Soma\n\t{2} Subtração\n\t{3} Multiplicação\n\t{4} Divisão\nOpção: ");
+                opcao = int.Parse(Console.ReadLine());
+            } while (opcao < 1 || opcao > 4);
+
+            if (opcao == 1)
+            {
+                resultado = numero1 + numero2;
             }
-            else
+            if (opcao == 2)
             {
-                if (opcao == 1)
+                resultado = numero1 - numero2;
+            }
+            if (opcao == 3)
+            {
+                resultado = numero1 * numero2;
+            }
+            if (opcao == 4)
+            {
+                if (numero2 == 0)
                 {
-                    resultado = numero1 + numero2;
+                    Console.WriteLine("Não é possivel dividir por zero!");
                 }
-                if (opcao == 2)
-                {
-                    resultado = numero1 - numero2;
-                }
-                if (opcao == 3)
-                {
-                    resultado = numero1 * numero2;
-                }
-                if (opcao == 4)
-                {
-                    if (numero2 == 0)
-                    {
-                        Console.WriteLine("Não é possivel dividir por zero!");
-                    }
-                    else
+                else
                     resultado = numero1 / numero2;
-                }
             }
+
             Console.WriteLine("O resultado da operação é: " + resultado);
         }
     }
