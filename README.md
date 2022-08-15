@@ -1,2 +1,2 @@
-# Estagio_Interacao
+# _Estágio Interação_
 Repositório dedicado aos primeiros projetos do estágio.
