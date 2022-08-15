@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaiorAndMenorNumero", "Maio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReajustesSalariais", "ReajustesSalariais\ReajustesSalariais.csproj", "{7EFFC10C-2E46-4D44-B88E-4F89AFA394A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaDoAluno", "MediaDoAluno\MediaDoAluno.csproj", "{9C8BB09D-A1C0-4073-93DA-324E02652ED3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7EFFC10C-2E46-4D44-B88E-4F89AFA394A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EFFC10C-2E46-4D44-B88E-4F89AFA394A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EFFC10C-2E46-4D44-B88E-4F89AFA394A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8BB09D-A1C0-4073-93DA-324E02652ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8BB09D-A1C0-4073-93DA-324E02652ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8BB09D-A1C0-4073-93DA-324E02652ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8BB09D-A1C0-4073-93DA-324E02652ED3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
