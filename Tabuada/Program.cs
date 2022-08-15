@@ -6,7 +6,7 @@ namespace Tabuada
     {
         static void Main(string[] args)
         {
-            int tabuada, inicio, parada, resultado, soma=0;
+            int tabuada, inicio, parada, resultado, soma = 0;
 
             Console.Write("Informe uma tabuada para ser calculada: ");
             tabuada = int.Parse(Console.ReadLine());
@@ -17,11 +17,17 @@ namespace Tabuada
             Console.Write("Informe o número de parada da tabuada: ");
             parada = int.Parse(Console.ReadLine());
 
-            if (parada < inicio)
+            do
             {
-                Console.WriteLine("informe um numero de parada menor que o de inicio");
-            }
-            else
+                Console.WriteLine("\ninforme um numero de parada maior que o de inicio");
+                Console.Write("Informe o número de inicio da tabuada: ");
+                inicio = int.Parse(Console.ReadLine());
+
+                Console.Write("Informe o número de parada da tabuada: ");
+                parada = int.Parse(Console.ReadLine());
+            } while (parada < inicio);
+
+            if (parada > inicio)
             {
                 for (int i = inicio; i <= parada; i++)
                 {
