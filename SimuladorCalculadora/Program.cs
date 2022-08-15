@@ -6,6 +6,7 @@ namespace SimuladorCalculadora
     {
         static void Main(string[] args)
         {
+            // CALCULADORA DE OPERAÇÕES BÁSICAS.
             float numero1, numero2, resultado=0;
             int opcao;
 
