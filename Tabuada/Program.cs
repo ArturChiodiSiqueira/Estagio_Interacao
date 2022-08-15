@@ -6,6 +6,7 @@ namespace Tabuada
     {
         static void Main(string[] args)
         {
+            // TABUADA BÁSICA
             int tabuada, inicio, parada, resultado, soma = 0;
 
             Console.Write("Informe uma tabuada para ser calculada: ");
@@ -13,7 +14,7 @@ namespace Tabuada
 
             do
             {
-                Console.WriteLine("\nInforme um numero de parada maior que o de inicio!!!");
+                Console.WriteLine("\nInforme um número de parada maior que o de inicio!!!");
                 Console.Write("Informe o número de inicio da tabuada: ");
                 inicio = int.Parse(Console.ReadLine());
 
