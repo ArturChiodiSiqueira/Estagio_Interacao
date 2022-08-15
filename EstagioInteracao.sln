@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacaoBasica", "OperacaoB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangulosVerificacao", "TriangulosVerificacao\TriangulosVerificacao.csproj", "{7F0B21A3-6145-478D-BBC3-7CB818F3EEB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParOuImpar", "ParOuImpar\ParOuImpar.csproj", "{D49EBD2E-BB98-443E-9546-2427D197AFEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{7F0B21A3-6145-478D-BBC3-7CB818F3EEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F0B21A3-6145-478D-BBC3-7CB818F3EEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F0B21A3-6145-478D-BBC3-7CB818F3EEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49EBD2E-BB98-443E-9546-2427D197AFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49EBD2E-BB98-443E-9546-2427D197AFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49EBD2E-BB98-443E-9546-2427D197AFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49EBD2E-BB98-443E-9546-2427D197AFEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
