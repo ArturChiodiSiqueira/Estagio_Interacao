@@ -19,10 +19,6 @@ namespace ProjetoSaudacoes
 
             Console.WriteLine("Digite seu nome: ");
             nome = Console.ReadLine();
-            Console.WriteLine("Informe a hora: ");
-            hora = int.Parse(Console.ReadLine());
-            Console.WriteLine("Informe o minuto: ");
-            minuto = int.Parse(Console.ReadLine());
 
             for (hora = 0; hora <= 0 || hora > 23;)
             {
@@ -35,24 +31,20 @@ namespace ProjetoSaudacoes
                     minuto = int.Parse(Console.ReadLine());
                 } while (minuto > 59 || minuto < 0);
 
-                if (hora < 24 && hora < 24)
+            }
+            if (hora >= 0 && hora <= 11)
+            {
+                Console.WriteLine("Bom dia, " + nome);
+            }
+            else
+            {
+                if (hora >= 12 && hora < 18)
                 {
-                    if (hora >= 0 && hora >=0 && minuto > 60 && minuto >= 0)
-                    {
-                        Console.WriteLine("Bom dia, " + nome);
-                    }
-                    else if (hora >= 12 && hora < 18)
-                    {
-                        Console.WriteLine("Boa tarde, " + nome);
-                    }
-                    else
-                    {
-                        Console.WriteLine("Boa noite, " + nome);
-                    }
+                    Console.WriteLine("Boa tarde, " + nome);
                 }
                 else
                 {
-                    
+                    Console.WriteLine("Boa noite, " + nome);
                 }
             }
         }
