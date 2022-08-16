@@ -11,21 +11,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tabuada", "Tabuada\Tabuada.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoSaudacoes", "ProjetoSaudacoes\ProjetoSaudacoes.csproj", "{9FD91528-8319-4685-8542-DA9D2F7EB50D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoDeGraus", "ConversaoDeGraus\ConversaoDeGraus.csproj", "{5EC97D35-F46D-43CF-80F6-85CE40BBB003}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversaoDeGraus", "ConversaoDeGraus\ConversaoDeGraus.csproj", "{5EC97D35-F46D-43CF-80F6-85CE40BBB003}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaiorAndMenorNumero", "MaiorAndMenorNumero\MaiorAndMenorNumero.csproj", "{258B5B4B-A5DB-4C3C-BBB3-4360022320E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaiorAndMenorNumero", "MaiorAndMenorNumero\MaiorAndMenorNumero.csproj", "{258B5B4B-A5DB-4C3C-BBB3-4360022320E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReajustesSalariais", "ReajustesSalariais\ReajustesSalariais.csproj", "{7EFFC10C-2E46-4D44-B88E-4F89AFA394A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReajustesSalariais", "ReajustesSalariais\ReajustesSalariais.csproj", "{7EFFC10C-2E46-4D44-B88E-4F89AFA394A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaDoAluno", "MediaDoAluno\MediaDoAluno.csproj", "{9C8BB09D-A1C0-4073-93DA-324E02652ED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaDoAluno", "MediaDoAluno\MediaDoAluno.csproj", "{9C8BB09D-A1C0-4073-93DA-324E02652ED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacaoBasica", "OperacaoBasica\OperacaoBasica.csproj", "{E54833DA-6EBC-40AC-A387-75E0AD66B36E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperacaoBasica", "OperacaoBasica\OperacaoBasica.csproj", "{E54833DA-6EBC-40AC-A387-75E0AD66B36E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangulosVerificacao", "TriangulosVerificacao\TriangulosVerificacao.csproj", "{7F0B21A3-6145-478D-BBC3-7CB818F3EEB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangulosVerificacao", "TriangulosVerificacao\TriangulosVerificacao.csproj", "{7F0B21A3-6145-478D-BBC3-7CB818F3EEB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParOuImpar", "ParOuImpar\ParOuImpar.csproj", "{D49EBD2E-BB98-443E-9546-2427D197AFEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParOuImpar", "ParOuImpar\ParOuImpar.csproj", "{D49EBD2E-BB98-443E-9546-2427D197AFEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimoOuNao", "PrimoOuNao\PrimoOuNao.csproj", "{2A4000BE-B95A-466A-9635-8CB8DE559F2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimoOuNao", "PrimoOuNao\PrimoOuNao.csproj", "{2A4000BE-B95A-466A-9635-8CB8DE559F2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoSobreVetores", "EstudoSobreVetores\EstudoSobreVetores.csproj", "{FD29B3DE-68D2-484D-8E03-6350727C11A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{2A4000BE-B95A-466A-9635-8CB8DE559F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A4000BE-B95A-466A-9635-8CB8DE559F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A4000BE-B95A-466A-9635-8CB8DE559F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD29B3DE-68D2-484D-8E03-6350727C11A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD29B3DE-68D2-484D-8E03-6350727C11A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD29B3DE-68D2-484D-8E03-6350727C11A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD29B3DE-68D2-484D-8E03-6350727C11A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
