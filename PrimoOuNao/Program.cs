@@ -20,13 +20,13 @@ namespace PrimoOuNao
                 }
                 Console.WriteLine(resultado);
             }
-            if (resultado != 2)
+            if (resultado == 2)
             {
-                Console.WriteLine("O número não é primo!");
+                Console.WriteLine("O número é primo!");
             }
             else
             {
-                Console.WriteLine("O numero é primo!");
+                Console.WriteLine("O numero não é primo!");
             }
             Console.WriteLine("\n\nPressione qualquer tecla para finalizar.");
             Console.ReadKey();
