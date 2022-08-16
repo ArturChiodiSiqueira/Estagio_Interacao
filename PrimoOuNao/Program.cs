@@ -6,15 +6,15 @@ namespace PrimoOuNao
     {
         static void Main(string[] args)
         {
-            int num, resultado = 0, aux;
+            int numero, resultado = 0, auxiliar;
 
             Console.Write("Informe um número: ");
-            num = int.Parse(Console.ReadLine());
+            numero = int.Parse(Console.ReadLine());
 
-            for (aux = num; aux >= 1; aux--)
+            for (auxiliar = numero; auxiliar >= 1; auxiliar--)
             {
-                Console.WriteLine(num + " / " + aux);
-                if (num % aux == 0)
+                Console.WriteLine(numero + " / " + auxiliar);
+                if (numero % auxiliar == 0)
                 {
                     resultado++;
                 }
