@@ -15,13 +15,20 @@ namespace EstudoSobreVetores
                 Console.Write("informe o " + (i + 1) + "° valor: ");
                 vet[i] = int.Parse(Console.ReadLine());
             }
+
             Console.WriteLine("\nos valores informados são: ");
             for (i = 0; i < 4; i++)
             {
                 Console.WriteLine("vet [" + i + "] = " + vet[i]);
             }
 
-            Console.WriteLine("Informe um valor para multiplicar todos os valores do vetor: ");
+            Console.WriteLine("\nos valores na ordem inversa são: ");
+            for (i = 3; i >= 0; i--)
+            {
+                Console.WriteLine("vet [" + i + "] = " + vet[i]);
+            }
+
+            Console.Write("\n\nInforme um valor para multiplicar todos os valores do vetor: ");
             valor = int.Parse(Console.ReadLine());
 
             for (i = 0; i < 4; i++)
@@ -32,7 +39,13 @@ namespace EstudoSobreVetores
             Console.WriteLine("\nos valores resultantes são: ");
             for (i = 0; i < 4; i++)
             {
-                Console.WriteLine("vet [" + i + "] = " + vet[i]);
+                Console.WriteLine("\nvet [" + i + "] = " + vet[i]);
+                if (vet[i] % 2 == 0)
+                {
+                    Console.WriteLine("Resultado par!");
+                }
+                else
+                    Console.WriteLine("Resultado impar!");
             }
         }
     }
