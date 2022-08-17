@@ -8,10 +8,11 @@ namespace VetorCaracteres
         {
             char[] letra = new char[10];
             int contV = 0, contC = 0;
+            char aux;
 
             for (int i = 0; i < 10; i++)
             {
-                letra[i] = char.Parse(Console.ReadLine());
+                letra[i] = char.Parse(Console.ReadLine().ToUpper());
             }
 
             for (int i = 0; i < 10; i++)
