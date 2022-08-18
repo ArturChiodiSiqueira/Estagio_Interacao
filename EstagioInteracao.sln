@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoSobreVetores", "Estud
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetorCaracteres", "VetorCaracteres\VetorCaracteres.csproj", "{385BA801-3EF2-464A-BB59-031E3D005786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomaVetoresTeste", "SomaVetoresTeste\SomaVetoresTeste.csproj", "{CEBC448C-91FE-4F76-B85B-63DE3617F925}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SomaVetoresTeste", "SomaVetoresTeste\SomaVetoresTeste.csproj", "{CEBC448C-91FE-4F76-B85B-63DE3617F925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoSobreMatriz", "EstudoSobreMatriz\EstudoSobreMatriz.csproj", "{842C8D48-92F1-461D-A980-F06D9E93B9E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{CEBC448C-91FE-4F76-B85B-63DE3617F925}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEBC448C-91FE-4F76-B85B-63DE3617F925}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEBC448C-91FE-4F76-B85B-63DE3617F925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{842C8D48-92F1-461D-A980-F06D9E93B9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842C8D48-92F1-461D-A980-F06D9E93B9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842C8D48-92F1-461D-A980-F06D9E93B9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842C8D48-92F1-461D-A980-F06D9E93B9E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
